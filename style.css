@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+section.intro {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.background-image {
+    background-image: url('images/cat.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    width: auto;
+    height: 600px;
+}
+
+.forms {
+    margin-top: 20px;
+}
+
+.forms form {
+    margin-bottom: 10px;
+}
+
+.forms form button {
+    background-color: orange;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+section.solicitar-registro {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.container1 {
+    text-align: center;
+    background-color: black;
+    width: auto;
+    height: auto;
+    padding: 30px;
+}
+
+section.requisitos {
+    background-color: orange;
+    color: #fff;
+    padding: 50px 0;
+}
+
+section.requisitos h2 {
+    margin: 0;
+}
+
+.divider {
+    border-top: 2px solid #fff;
+    width: 50px;
+    margin: 20px auto;
+}
+
+.divider1 {
+    border-top: 2px solid #000000;
+    width: 50px;
+    margin: 20px auto;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+}
+
+.column h3 {
+    margin-top: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #575757; 
+    color: #fff; 
+    text-align: center;
+    padding: 20px 0;
+}
+
+.version {
+    margin: 0;
+}
+
+.espaciado{
+    padding: 0 100px;
+    max-width: 1200px;
+}
+
+.espaciado3 {
+    padding: 20px;
+    background-color: gainsboro;
+    text-align: justify;
+
+}
+
+.container3 {
+    background-color: #272525; /* Fondo gris claro */
+    padding: 20px;
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.form-group1 {
+    margin-bottom: 20px;
+}
+
+.form-group1 label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.buttons {
+    text-align: right;
+}
+
+.buttons1 button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #007bff; /* Botones azules */
+    color: #fff;
+}
+
+.buttons button[type="reset"] {
+    background-color: #dc3545; /* Botón Limpiar rojo */
+}
